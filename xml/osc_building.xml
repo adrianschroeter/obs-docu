@@ -167,12 +167,12 @@ The buildroot was: /var/tmp/build-root/openSUSE_Tumbleweed-x86_64</screen>
    <listitem>
      <para>You may want to jump inside of a the build environment for debugging purposes. This can be done via the following command:
            </para>
-      <screen>&prompt.user;<command>osc</command> shell --vm-type=<replaceable>VM</replaceable></screen>
+      <screen>&prompt.user;<command>osc</command> shell</screen>
    </listitem>
    <listitem>
      <para>To remove the build environemnt, use:
            </para>
-      <screen>&prompt.user;<command>osc</command> wipe --vm-type=<replaceable>VM</replaceable></screen>
+      <screen>&prompt.user;<command>osc</command> wipe</screen>
    </listitem>
   </itemizedlist>
  </sect1>
